@@ -35,6 +35,10 @@ if ($res === false) {
 
 header("Content-Type: application/dash+xml");
 
+header("Cache-Control: no-cache, no-store, must-revalidate");
+header("Pragma: no-cache");
+header("Expires: 0");
+
 
 echo $res;
 ?>
