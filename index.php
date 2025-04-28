@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
 // Your existing script below
 $get = $_GET['get'];
-$mpdUrl = 'https://ucdn.starhubgo.com/bpk-tv/HubPremier4/output/' . $get;
+$mpdUrl = 'https://ucdn.starhubgo.com/' . $get;
 
 $mpdheads = [
     'http' => [
