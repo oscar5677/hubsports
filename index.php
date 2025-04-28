@@ -33,7 +33,7 @@ if ($res === false) {
     exit();
 }
 
-
+header("Content-Type: application/dash+xml");
 
 
 echo $res;
